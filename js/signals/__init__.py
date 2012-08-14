@@ -2,6 +2,5 @@ from fanstatic import Library, Resource
 
 library = Library('js-signals', 'resources')
 
-# Define the resources in the library like this.
-# For options and examples, see the fanstatic documentation.
-# resource1 = Resource(library, 'style.css')
+signals = Resource(library, 'signals.js',
+                   minified='signals.min.js')
